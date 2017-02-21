@@ -23,3 +23,13 @@ Cloning is the process of pulling down a copy of a repository stored on a server
 `git status`
 
 ## Tell Git To Track A File
+
+`git add readme.md`
+
+## Make A Commit
+
+`git commit --m "First commit"`
+
+## Tell Git To Track A Whole Folder
+
+git add chapter2/
