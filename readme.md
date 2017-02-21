@@ -68,4 +68,38 @@ Cloning is the process of pulling down a copy of a repository stored on a server
 
 ## Push Master Branch To A Github Repository
 
+The `-u` sets the origin as the default for this branch
+
 `git push -u origin master`
+
+## Pull Down From A Branch From A GitHub Repository To Local Repository
+
+`git pull origin master`
+
+## Pull Down All Branches From GitHub
+
+`git fetch origin`
+
+## View All Remote Branches
+
+`git branch --remote`
+
+## View Log
+
+`git log`
+
+## View Unstagged Changes To Files
+
+`git diff`
+
+## Unstage A File
+
+`git reset filename`
+
+## Undo Last Commit, Move Commits Changes To Staging
+
+`git reset --soft HEAD^`
+
+## Undo Last Commit, Remove All Changes
+
+`git reset --hard HEAD^`
