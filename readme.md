@@ -36,7 +36,7 @@ Cloning is the process of pulling down a copy of a repository stored on a server
 
 ## Tell Git To Track (And Stage) All Files And Subfolders In A Directory
 
-`git add --a`
+`git add -A`
 
 ## View All Branches
 
@@ -100,6 +100,18 @@ The `-u` sets the origin as the default for this branch
 
 `git reset --soft HEAD^`
 
-## Undo Last Commit, Remove All Changes
+## Undo Last Commit, Remove All Changes In Your Working Directory
 
 `git reset --hard HEAD^`
+
+## Clone A Remote Repository Locally 
+
+`git clone url`
+
+## Show Changes From A Particular Commit
+
+`git show --pretty="format:" <commitID>`
+
+## Revert A Commit By Creating A New Commit With Opposite Changes
+
+`git revert <commitID>`
