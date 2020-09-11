@@ -166,7 +166,7 @@ git log --oneline --graph --all
 
 `git diff`
 
-## Unstage A File
+## Unstage A File (default --mixed)
 
 `git reset filename`
 
@@ -174,9 +174,14 @@ git log --oneline --graph --all
 
 `git reset --soft HEAD^`
 
+`^ idicates the parent commit` 
+
+`~ indicates the first parent commit`
+
 ## Undo Last Commit, Remove All Changes In Your Working Directory
 
 `git reset --hard HEAD^`
+
 
 ## Clone A Remote Repository Locally 
 
@@ -189,3 +194,12 @@ git log --oneline --graph --all
 ## Revert A Commit By Creating A New Commit With Opposite Changes
 
 `git revert <commitID>`
+
+## Alter most recent commit
+
+`git commit --amend`
+
+## To access erased commits
+
+`git reflog`
+
