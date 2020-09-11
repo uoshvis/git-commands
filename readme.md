@@ -104,6 +104,18 @@ Cloning is the process of pulling down a copy of a repository stored on a server
 
 2. Pull changes from another branch into your branch: `git merge new_ux`
 
+## Merge Conflict Indicators
+```
+# everything below this line (until the next indicator) shows you what's on the current branch
+<<<<<<< HEAD
+# everything below this line (until the next indicator) shows you what the original lines were
+||||||| merged common ancestors
+# is the end of the original lines, everything that follows (until the next indicator) is what's on the branch that's being merged in
+======
+#  is the ending indicator of what's on the branch that's being merged in (in this case, the heading-update branch)
+>>>>>>> heading-update
+```
+
 ## Set A Remote Github Repository
 
 1. Go to GitHub.com and create a new repository.
