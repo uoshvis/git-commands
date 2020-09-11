@@ -110,7 +110,20 @@ The `-u` sets the origin as the default for this branch
 
 ## View Log
 
-`git log`
+```
+git log
+
+# one commit per line + message
+git log --oneline
+
+# modified files, lines, summary
+git log --stat
+
+# start at specific commit
+git log -p {SHA}
+```
+
+*uses less(Unix) program*
 
 ## View Unstagged Changes To Files
 
