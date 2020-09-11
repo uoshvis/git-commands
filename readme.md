@@ -50,6 +50,8 @@ Cloning is the process of pulling down a copy of a repository stored on a server
 
 `git add readme.md`
 
+`git add <file1> <file2> … <fileN>`
+
 ## Make A Commit
 
 `git commit --m "First commit"`
@@ -61,6 +63,8 @@ Cloning is the process of pulling down a copy of a repository stored on a server
 ## Tell Git To Track (And Stage) All Files And Subfolders In A Directory
 
 `git add -A`
+
+`git add .`
 
 ## View All Branches
 
