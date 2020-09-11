@@ -82,6 +82,10 @@ Cloning is the process of pulling down a copy of a repository stored on a server
 
 `git branch new_model <SHA>`
 
+## Create Branch and Checkout
+
+`git checkout -b footer master`
+
 ## Switch To A Branch
 
 `git checkout new_model`
@@ -89,6 +93,10 @@ Cloning is the process of pulling down a copy of a repository stored on a server
 ## Create A New Branch And Switch To It
 
 `git checkout -b new_ux`
+
+## Delete branch
+
+`git branch -d <branchname>`
 
 ## Merge One Branch Into Another
 
@@ -133,6 +141,11 @@ git log --stat
 
 # start at specific commit
 git log -p {SHA}
+
+# show branching
+
+git log --oneline --graph --all
+
 ```
 
 *uses less(Unix) program*
