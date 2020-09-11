@@ -66,6 +66,10 @@ Cloning is the process of pulling down a copy of a repository stored on a server
 
 `git add .`
 
+## Add marker on a specific commit
+
+`git tag -a beta <SHA>`
+
 ## View All Branches
 
 `git branch`
