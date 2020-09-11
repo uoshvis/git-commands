@@ -68,7 +68,7 @@ Cloning is the process of pulling down a copy of a repository stored on a server
 
 ## Add marker on a specific commit
 
-`git tag -a beta <SHA>`
+`git tag -a <name> <SHA>`
 
 ## View All Branches
 
@@ -77,6 +77,10 @@ Cloning is the process of pulling down a copy of a repository stored on a server
 ## Create A New Branch
 
 `git branch new_model`
+
+## Create A New Branch on specific commit
+
+`git branch new_model <SHA>`
 
 ## Switch To A Branch
 
