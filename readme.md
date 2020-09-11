@@ -1,4 +1,4 @@
-## Firs time git configuration
+## First time git configuration
 
 Terminal configuration is in .bash_profile file.
 
