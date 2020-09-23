@@ -42,6 +42,15 @@ Cloning is the process of pulling down a copy of a repository stored on a server
 
 2. `git clone [url to repository's git file] [name of folder / repository you want]`
 
+## Clone into existing directory
+
+```
+git init
+git remote add origin [my-repo]
+git fetch
+git checkout origin/master -ft
+```
+
 ## Check The Status Of A Git Repository
 
 `git status`
