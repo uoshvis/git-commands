@@ -55,7 +55,7 @@ git checkout origin/master -ft
 
 `git status`
 
-## Echo file name to .gitignore
+## Echo file to .gitignore
 
 ```
 echo "<app_name>/settings_secret.py" >> .gitignore
