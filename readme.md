@@ -55,6 +55,14 @@ git checkout origin/master -ft
 
 `git status`
 
+## Echo file name to .gitignore
+
+```
+echo "<app_name>/settings_secret.py" >> .gitignore
+git add .gitignore
+git commit -m "Ignore secret settings"
+```
+
 ## Tell Git To Track A File
 
 `git add readme.md`
@@ -174,6 +182,11 @@ git log --oneline --graph --all
 ## View Unstagged Changes To Files
 
 `git diff`
+
+### Already added changes
+
+`git diff --cached <filename>`
+
 
 ## Unstage A File (default --mixed)
 
